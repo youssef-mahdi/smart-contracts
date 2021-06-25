@@ -15,6 +15,7 @@ import           Data.Aeson           (ToJSON, FromJSON)
 import           Data.Map             as Map
 import           Data.Text            (Text)
 import           Data.Void            (Void)
+import           Data.ByteString     
 import           GHC.Generics         (Generic)
 import           Plutus.Contract      hiding (when)
 import qualified PlutusTx
